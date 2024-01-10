@@ -1,0 +1,74 @@
+/* Reset default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: white;
+    padding: 20px 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #000;
+  }
+  
+  .auth-links {
+    display: inline-block;
+    margin: 5px, 10px;
+    margin-left: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .auth-links {
+      display: block;
+      text-align: right;
+      margin-top: 10px; /* Adjust spacing */
+    }
+  
+    .auth-links a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
