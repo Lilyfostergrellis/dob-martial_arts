@@ -5,22 +5,22 @@ body, ul {
     font-family: sans-serif;
   }
   
-  /* Navbar styles */
+/* Navbar styles */
   .navbar {
     background-color: white;
-    padding: 20px 0;
+    padding: 20px 0px;
     font-family: sans-serif;
   }
   
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
-  
+ 
   .logo {
     font-size: 24px;
     font-weight: bold;
@@ -63,7 +63,7 @@ body, ul {
     .auth-links {
       display: block;
       text-align: right;
-      margin-top: 10px; /* Adjust spacing */
+      margin-top: 10px;
     }
   
     .auth-links a {
@@ -72,8 +72,12 @@ body, ul {
     }
   }
 
+  #signin{
+    margin: 20px;
+  }
+
   .hero {
-    background-image: url(./assets/hero.jpg); 
+    background-image: url(./assets/hero-2.jpg); 
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -81,7 +85,7 @@ body, ul {
     align-items: center;
     text-align: center;
     color: #fff;
-    padding: 0 20px;
+    padding: 110px;
   }
   
   .hero h1 {
@@ -108,6 +112,25 @@ body, ul {
     background-color: #333;
     color: #fff;
   }
+
+  /*IMAGES/MAIN CONTENT*/
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .image-container {
+    flex: 1;
+    margin: 5px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
   
 
   .footer {
@@ -116,13 +139,15 @@ body, ul {
     padding: 40px 0;
   }
   
-  .container {
+  .footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 90px;
   }
   
   .footer-left {
