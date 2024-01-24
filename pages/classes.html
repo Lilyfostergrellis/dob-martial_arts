@@ -4,9 +4,303 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classes</title>
+
+    <title>Classes - DoBu Martial Arts</title>
+
+    <link rel="stylesheet" href="../css/classes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/637b5e2b1d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+          <a class="logo" img src="" alt="Logo">DMA</a>
+    
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./classes.html">Classes</a></li>
+            <li><a href="./facilities.html">Facilities</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+    
+            <li class="auth-links">
+              <a href="./sign_in.html" id="signin">Sign In </a>
+              <a href="./sign_up.html" id="signup">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section class = "schedule">
+    <h2>Class Schedule</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th class="day-column"></th>
+            <th>Time</th>
+            <th>Class</th>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Monday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+        
+        <tr>
+            <td class="day-column" rowspan="7">Tuesday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Wednesday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Thursday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Friday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Saturday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+
+        <tr>
+            <td class="day-column" rowspan="7">Sunday</td>
+            <td>06:00 AM - 7:30 AM</td>
+            <td>Jiu-Jitsu</td>
+        </tr>
+        <tr>
+            <td>08:00 AM - 10:00 AM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 12:00</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>1:00 PM - 2:30 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>5:30 PM - 7:00 PM</td>
+            <td>Yoga</td>
+        </tr>
+        <tr>
+            <td>7:00 PM - 9:00PM</td>
+            <td>Yoga</td>
+        </tr>
+    </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            <div class="company-info">
+              <h3>DoBu Martial Arts</h3>
+              <p>123 Street Name, City</p>
+              <p>Country, ABC 123</p>
+            </div>
+            <div class="social-media">
+              <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-right">
+            <div class="footer-column">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Resources</h4>
+              <ul>
+                <li><a href="#instructors">Instructors</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#blog">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
     
 </body>
 </html>
