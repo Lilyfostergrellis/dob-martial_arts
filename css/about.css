@@ -72,12 +72,12 @@ body, ul {
     }
   }
 
-  #signin{
+#signin{
     margin: 20px;
   }
 
   .hero {
-    background-image: url(./assets/hero-2.jpg); 
+    background-image: url(../assets/img3.jpg); 
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -85,20 +85,84 @@ body, ul {
     align-items: center;
     text-align: center;
     color: #fff;
-    padding: 110px;
+    padding: 200px;
+    margin-bottom: 50px;
+    height: 1000px;
   }
   
-  .hero h1 {
-    font-size: 120px;
+.hero h1 {
+    font-size: 200px;
     margin-bottom: 20px;
+    
   }
   
-  .hero p {
+.hero p {
     font-size: 1.5rem;
     margin-bottom: 30px;
   }
+
+/* carousel images */
+#imageCarousel {
+        max-width: 400px; /* Set the maximum width of the carousel */
+        margin: auto; /* Center the carousel */
+    }
+
+    .carousel-inner img {
+        max-width: 100%; /* Ensure images don't exceed the width of the container */
+        height: auto; /* Maintain the aspect ratio */
+    }
+
+/* section */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 50px;
+    flex: 0 0 33.3%;
+    margin-bottom: 100px;
+}
+
+
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.circular-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-caption {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* where to find us */
+.map-container {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
   
-  .btn-primary {
+.btn-primary {
     background-color: #fff;
     color: #333;
     padding: 10px 20px;
@@ -108,38 +172,18 @@ body, ul {
     transition: all 0.3s ease-in-out;
   }
   
-  .btn-primary:hover {
+.btn-primary:hover {
     background-color: #333;
     color: #fff;
   }
 
-  /*IMAGES/MAIN CONTENT*/
-  section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-  }
-
-  .image-container {
-    flex: 1;
-    margin: 5px;
-  }
-
-  .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 2px;
-  }
-  
-
-  .footer {
+.footer {
     background-color: #333;
     color: #fff;
     padding: 40px 0;
   }
   
-  .footer-container {
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -150,58 +194,57 @@ body, ul {
     margin-top: 90px;
   }
   
-  .footer-left {
+.footer-left {
     flex: 1;
   }
   
-  .company-info {
+.company-info {
     margin-bottom: 20px;
   }
   
-  .company-info h3 {
+.company-info h3 {
     font-size: 22px;
     margin-bottom: 10px;
   }
   
-  .social-media a {
+.social-media a {
     display: inline-block;
     margin-right: 10px;
   }
   
-  .social-media img {
+.social-media img {
     width: 30px;
     height: 30px;
   }
   
-  .footer-right {
+.footer-right {
     display: flex;
   }
   
-  .footer-column {
+.footer-column {
     flex: 1;
     padding-left: 50px;
   }
   
-  .footer-column h4 {
+.footer-column h4 {
     font-size: 18px;
     margin-bottom: 15px;
   }
   
-  .footer-column ul {
+.footer-column ul {
     list-style: none;
     padding: 0;
   }
   
-  .footer-column ul li {
+.footer-column ul li {
     margin-bottom: 8px;
   }
   
-  .footer-column ul li a {
+.footer-column ul li a {
     color: black;
     text-decoration: none;
   }
   
-  .footer-column ul li a:hover {
+.footer-column ul li a:hover {
     text-decoration: underline;
   }
-  
