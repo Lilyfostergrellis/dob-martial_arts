@@ -70,6 +70,17 @@
   }
 
 /*TABLE*/
+
+.schedule {
+  padding: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.schedule h2 {
+  font-size: 40px;
+  text-align: center;
+}
 table {
     width: 100%;
     border-collapse: collapse;
