@@ -1,0 +1,181 @@
+/* DEFAULT BROWSER */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+    background-color: white;
+    padding: 20px 0px;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+ 
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #000;
+  }
+  
+  .auth-links {
+    display: inline-block;
+    margin: 5px, 10px;
+    margin-left: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .auth-links {
+      display: block;
+      text-align: right;
+      margin-top: 10px;
+    }
+  
+    .auth-links a {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+#signin{
+    margin: 20px;
+  }
+
+/* BLOG STYLING */
+.blog {
+    text-align: center;
+    padding: 50px;
+}
+
+.blog h2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-post {
+    border: none;
+    padding: 10px;
+    text-align: center;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER STYLING */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-top: 90px;
+  }
+  
+.footer-left {
+    flex: 1;
+  }
+  
+.company-info {
+    margin-bottom: 20px;
+  }
+  
+.company-info h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.social-media img {
+    width: 30px;
+    height: 30px;
+  }
+  
+.footer-right {
+    display: flex;
+  }
+  
+.footer-column {
+    flex: 1;
+    padding-left: 50px;
+  }
+  
+.footer-column h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+.footer-column ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+.footer-column ul li a:hover {
+    text-decoration: underline;
+  }
